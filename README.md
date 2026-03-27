@@ -142,6 +142,8 @@ Developed as a backend learning project to demonstrate real-world Spring Boot ap
 
 #Notes
 
-Built as a hands-on backend project to understand how real-world e-commerce systems handle product management, database relationships, and API design.
+##Built as a hands-on backend project to understand how real-world e-commerce systems handle product management, database relationships, and API design.
+##APIs tested using Postman
+##Backend connected with MySQL database
 
 Developed by Arshdeep Nayan
