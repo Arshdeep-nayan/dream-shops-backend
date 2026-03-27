@@ -146,4 +146,34 @@ Developed as a backend learning project to demonstrate real-world Spring Boot ap
 ##APIs tested using Postman
 ##Backend connected with MySQL database
 
+#API Demo
+
+Below are sample API interactions demonstrating the working backend.
+
+##Create Product (POST)
+
+Adds a new product linked to an existing category.
+
+[Create Product](screenshots/post1.png)
+
+
+
+##Create Product (POST)
+
+Another successful product creation request.
+
+[Create Product 2](screenshots/post2.png)
+
+
+
+##Get All Products (GET)
+
+Fetches all stored products from the database.
+
+[Get Products](screenshots/get.png)
+
+
+---------------------------------------------
+
+
 Developed by Arshdeep Nayan
