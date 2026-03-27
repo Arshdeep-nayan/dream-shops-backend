@@ -154,7 +154,7 @@ Below are sample API interactions demonstrating the working backend.
 
 Adds a new product linked to an existing category.
 
-[Create Product](screenshots/post1.png)
+![Create Product](screenshots/post1.png)
 
 
 
@@ -162,7 +162,7 @@ Adds a new product linked to an existing category.
 
 Another successful product creation request.
 
-[Create Product 2](screenshots/post2.png)
+![Create Product 2](screenshots/post2.png)
 
 
 
@@ -170,7 +170,7 @@ Another successful product creation request.
 
 Fetches all stored products from the database.
 
-[Get Products](screenshots/get.png)
+![Get Products](screenshots/get.png)
 
 
 ---------------------------------------------
