@@ -67,7 +67,7 @@ http://localhost:9191
 | Method | Endpoint               |
 | ------ | ---------------------- |
 | GET    | `/api/v1/products/all` |
-| POST   | `/api/v1/products`     |
+| POST   | `/api/v1/products/add` |
 
 
 
@@ -75,7 +75,7 @@ http://localhost:9191
 
 | Method | Endpoint             |
 | ------ | -------------------- |
-| POST   | `/api/v1/categories` |
+| POST   |`/api/v1/categories/add`|
 
 
 
