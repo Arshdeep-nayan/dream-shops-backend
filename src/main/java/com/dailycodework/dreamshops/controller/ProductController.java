@@ -42,6 +42,9 @@ public class ProductController {
     }
 
     @PostMapping("/add")
+    if (request.getPrice() <= 0) {
+        throw new IllegalArgumentException("Price must be greater than 0");
+    }
     public ResponseEntity<ApiResponse> addProduct(@RequestBody AddProductRequest product) {
         try {
             Product theProduct = productService.addProduct(product);
