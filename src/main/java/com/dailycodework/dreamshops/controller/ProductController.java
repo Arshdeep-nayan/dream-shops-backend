@@ -22,7 +22,7 @@ import static org.springframework.http.HttpStatus.NOT_FOUND;
 @RequestMapping("${api.prefix}/products")
 public class ProductController {
     private final IProductService productService;
-
+    // Handles request to fetch all products
     @GetMapping("/all")
     public ResponseEntity<ApiResponse> getAllProducts() {
         List<Product> products = productService.getAllProducts();
@@ -40,7 +40,7 @@ public class ProductController {
             return ResponseEntity.status(NOT_FOUND).body(new ApiResponse(e.getMessage(), null));
         }
     }
-
+// Handles request to create a new product
     @PostMapping("/add")
     if (request.getPrice() <= 0) {
         throw new IllegalArgumentException("Price must be greater than 0");
