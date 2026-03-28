@@ -12,7 +12,7 @@ Tech Stack:-
 4.MySQL
 5.Maven
 
-
+```
 Project Structure
 
 src/main/java/com/dailycodework/dreamshops
@@ -22,14 +22,14 @@ src/main/java/com/dailycodework/dreamshops
 ├── repository     # Database access (JPA)
 ├── model/entity   # Database entities
 └── DreamShopsApplication.java  # Entry point
-
-
+```
 #Setup Instructions :-
 
 1. Clone the repository
-
+```
 git clone https://github.com/dailycodework/dream-shops.git
 cd dream-shops
+```
 
 
 2. Configure Database
@@ -135,7 +135,7 @@ GET /api/v1/products/all
 
 
 #By Author:-
-
+**Arshdeep Nayan**
 Developed as a backend learning project to demonstrate real-world Spring Boot application structure.
 
 
@@ -171,9 +171,3 @@ Another successful product creation request.
 Fetches all stored products from the database.
 
 ![Get Products](Screenshots/GET.png)
-
-
----------------------------------------------
-
-
-Developed by Arshdeep Nayan
