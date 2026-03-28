@@ -33,7 +33,7 @@ cd dream-shops
 
 
 2. Configure Database
-
+```
 Create a MySQL database:
 
 CREATE DATABASE dream_shops;
@@ -47,9 +47,9 @@ spring.datasource.password=YOUR_PASSWORD #Put your DB password here!!
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 
-
+```
 3. Run the Application
-
+```
 Using IntelliJ or terminal:
 
 mvn spring-boot:run
@@ -57,11 +57,11 @@ mvn spring-boot:run
 Application will start on:
 
 http://localhost:9191
-
+```
 
 
 #API Endpoints:-
-
+```
 ##Products:-
 
 | Method | Endpoint               |
@@ -76,7 +76,6 @@ http://localhost:9191
 | Method | Endpoint             |
 | ------ | -------------------- |
 | POST   |`/api/v1/categories/add`|
-
 
 
 ##Sample Requests
@@ -104,7 +103,7 @@ POST /api/v1/products
 ###Get All Products
 
 GET /api/v1/products/all
-
+```
 
 ##Key Concepts Demonstrated
 
