@@ -133,7 +133,7 @@ GET /api/v1/products/all
 
 
 
-#By Author:-
+#Author:-
 **Arshdeep Nayan**
 Developed as a backend learning project to demonstrate real-world Spring Boot application structure.
 
