@@ -1,12 +1,26 @@
-##Dream shops - Spring boot E-Commerce backend
+# Dream Shops – Spring Boot E-Commerce Backend
 
-A RESTful backend application for an e-commerce system built using Spring Boot, MySQL, and JPA/Hibernate.
-This project demonstrates core backend engineering concepts such as API design, layered architecture, and database relationships.
+A RESTful backend application for an e-commerce system built using Spring Boot, MySQL, and JPA/Hibernate. This project demonstrates core backend engineering concepts such as API design, layered architecture, and relational database relationships.
 
+---
 
-Tech Stack:-
+## Project Overview
 
-Java 17 ,Spring Boot, Spring Data JPA (Hibernate), MySQL, Maven
+This application provides backend services for managing products and categories in an e-commerce system. It follows a layered architecture and uses JPA/Hibernate for database interaction.
+
+---
+
+## Tech Stack
+
+- Java 17  
+- Spring Boot  
+- Spring Data JPA (Hibernate)  
+- MySQL  
+- Maven  
+
+---
+
+## Project Structure
 
 ```
 Project Structure
@@ -19,113 +33,113 @@ src/main/java/com/dailycodework/dreamshops
 ├── model/entity   # Database entities
 └── DreamShopsApplication.java  # Entry point
 ```
-#Setup Instructions :-
 
-1. Clone the repository
-```
-git clone https://github.com/dailycodework/dream-shops.git
-cd dream-shops
-```
+---
 
+## Setup & Installation
 
-2. Configure Database
-```
+### 1. Clone the Repository
+
+git clone https://github.com/dailycodework/dream-shops.git  
+cd dream-shops  
+
+---
+
+### 2. Configure Database
+
 Create a MySQL database:
 
 CREATE DATABASE dream_shops;
 
-Update `application.properties`:
+Update application.properties:
 
-spring.datasource.url=jdbc:mysql://localhost:3306/dream_shops
-spring.datasource.username=root
-spring.datasource.password=YOUR_PASSWORD #Put your DB password here!!
+spring.datasource.url=jdbc:mysql://localhost:3306/dream_shops  
+spring.datasource.username=root  
+spring.datasource.password=YOUR_PASSWORD  
 
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update  
+spring.jpa.show-sql=true  
 
-```
-3. Run the Application
-```
-Using IntelliJ or terminal:
+---
 
-mvn spring-boot:run
+### 3. Run the Application
 
-Application will start on:
+mvn spring-boot:run  
 
-http://localhost:9191
-```
+Application will start at:
 
+http://localhost:9191  
 
-#API Endpoints:-
-```
-##Products:-
+---
 
-| Method | Endpoint               |
-| ------ | ---------------------- |
-| GET    | `/api/v1/products/all` |
-| POST   | `/api/v1/products/add` |
+## API Endpoints
 
-
-
-##Categories
+### Products
 
 | Method | Endpoint             |
-| ------ | -------------------- |
-| POST   |`/api/v1/categories/add`|
+|--------|----------------------|
+| GET    | /api/v1/products/all |
+| POST   | /api/v1/products/add |
 
-```
+---
 
-##Key Concepts Demonstrated
+### Categories
 
-* REST API design
-* Layered architecture (Controller → Service → Repository)
-* Entity relationships (Product ↔ Category, Order ↔ User)
-* Database integration with JPA/Hibernate
-* JSON request/response handling
+| Method | Endpoint                  |
+|--------|---------------------------|
+| POST   | /api/v1/categories/add   |
 
+---
 
-##Features
+## Key Concepts Demonstrated
 
-* Product and Category management
-* Relational database mapping
-* Clean and modular backend structure
-* Auto table creation using Hibernate
+- REST API design  
+- Layered architecture (Controller → Service → Repository)  
+- Entity relationships (Product ↔ Category)  
+- Database integration using JPA/Hibernate  
+- JSON request and response handling  
 
+---
 
+## Features
 
-#Notes
+- Product and Category management  
+- Relational database mapping  
+- Clean and modular backend structure  
+- Automatic table creation using Hibernate  
 
-##Built as a hands-on backend project to understand how real-world e-commerce systems handle product management, database relationships, and API design.
-##APIs tested using Postman
-##Backend connected with MySQL database
+---
 
-#API Demo
+## API Demo
 
-Below are sample API interactions demonstrating the working backend.
-
-##Create Product (POST)
+### Create Product (POST)
 
 Adds a new product linked to an existing category.
 
 ![Create Product](Screenshots/POST1.png)
 
-
-
-##Create Product (POST)
-
-Another successful product creation request.
+### Create Product (POST - Example 2)
 
 ![Create Product 2](Screenshots/POST2.png)
 
-
-
-##Get All Products (GET)
+### Get All Products (GET)
 
 Fetches all stored products from the database.
 
 ![Get Products](Screenshots/GET.png)
 
+---
 
-#Author:-
-**Arshdeep Nayan**
-Developed as a backend learning project to demonstrate real-world Spring Boot application structure.
+## Notes
+
+- APIs tested using Postman  
+- Backend connected with MySQL database  
+- Designed as a practical backend project for learning real-world system design  
+
+---
+
+## Author
+
+**Arshdeep nayan**
+
+Developed as a backend project to demonstrate scalable API design, database relationships, and clean architecture using Spring Boot.
