@@ -6,11 +6,7 @@ This project demonstrates core backend engineering concepts such as API design, 
 
 Tech Stack:-
 
-1.Java 17
-2.Spring Boot
-3.Spring Data JPA (Hibernate)
-4.MySQL
-5.Maven
+Java 17 ,Spring Boot, Spring Data JPA (Hibernate), MySQL, Maven
 
 ```
 Project Structure
@@ -77,32 +73,6 @@ http://localhost:9191
 | ------ | -------------------- |
 | POST   |`/api/v1/categories/add`|
 
-
-##Sample Requests
-
-###Create Category
-
-POST /api/v1/categories
-
-{
-  "name": "Electronics"
-}
-
-
-###Create Product
-
-POST /api/v1/products
-
-{
-  "name": "iPhone",
-  "price": 80000,
-  "categoryId": 1
-}
-
-
-###Get All Products
-
-GET /api/v1/products/all
 ```
 
 ##Key Concepts Demonstrated
@@ -120,22 +90,6 @@ GET /api/v1/products/all
 * Relational database mapping
 * Clean and modular backend structure
 * Auto table creation using Hibernate
-
-
-
-##Possible Improvements
-
-* Add authentication (JWT / Spring Security)
-* Implement pagination & filtering
-* Add validation and global exception handling
-* Dockerize the application
-* Add Swagger API documentation
-
-
-
-#Author:-
-**Arshdeep Nayan**
-Developed as a backend learning project to demonstrate real-world Spring Boot application structure.
 
 
 
@@ -170,3 +124,8 @@ Another successful product creation request.
 Fetches all stored products from the database.
 
 ![Get Products](Screenshots/GET.png)
+
+
+#Author:-
+**Arshdeep Nayan**
+Developed as a backend learning project to demonstrate real-world Spring Boot application structure.
